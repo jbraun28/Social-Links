@@ -1,0 +1,46 @@
+.avatar-style {
+    border-radius: 50%;
+    height: 100px;
+
+}
+
+.box {
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+.h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 50%;
+}
+
+.h3 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    
+}
+
+.p {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.button {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    display:inline-block;
+    border-radius: 8px;
+}
