@@ -1,7 +1,12 @@
 .avatar-style {
     border-radius: 50%;
-    height: 100px;
+    height: 90px;
+    margin-bottom: 15px;
 
+}
+
+.body {
+    background-color:hsl(0, 0%, 8%);
 }
 
 .box {
@@ -9,8 +14,9 @@
     width: 300px;
     border-radius: 8px;
     text-align: center;
-    padding: 50px;
-    margin: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
 }
 
 .h1 {
@@ -35,12 +41,43 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     padding-top: 15px;
+    margin-bottom: 25px;
 }
 
 .button {
     color:hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 20%);
+
     text-align: center;
-    display:inline-block;
+    font-family:  "Inter", sans-serif;
+    display: inline-block;
+    font-weight: bold;
+
     border-radius: 8px;
+    padding: 12px 40px;
+    margin-bottom: 10px;
+    width: 250px;
+    box-shadow: none;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(75, 94%, 57%);;
+}
+
+.link {
+    font-size: 11px; 
+    text-align: center;
+    color: white;
+
 }
